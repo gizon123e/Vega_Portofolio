@@ -1,10 +1,11 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/static/css/index.css">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
 </head>
 <body>
     {% include 'templates/navbar.html' %}
@@ -25,33 +26,33 @@
             </div>
             <div class="icon">
                 <a href="">
-                    <img src="/static/images/Desain_tanpa_judul__6_-removebg-preview.png" alt="">
+                    <img src="{% static 'images/Desain_tanpa_judul__6_-removebg-preview.png' %}" alt="">
                 </a>
                 <a href="">
-                    <img src="/static/images/Desain_tanpa_judul__7_-removebg-preview.png" alt="">
+                    <img src="{% static 'images/Desain_tanpa_judul__7_-removebg-preview.png' %}" alt="">
                 </a>
                 <a href="https://www.facebook.com">
-                    <img src="/static/images/Desain_tanpa_judul__8_-removebg-preview.png" alt="">
+                    <img src="{% static 'images/Desain_tanpa_judul__8_-removebg-preview.png' %}" alt="">
                 <a href="">
-                    <img src="/static/images/Desain_tanpa_judul__9_-removebg-preview.png" alt="">
+                    <img src="{% static 'images/Desain_tanpa_judul__9_-removebg-preview.png' %}" alt="">
                 </a>
             </div>
             <div class="icon_2">
                 <a href="">
-                    <img src="/static/images/twitter-5-64.png" alt="">
+                    <img src="{% static 'images/twitter-5-64.png' %}" alt="">
                 </a>
                 <a href="">
-                    <img src="/static/images/instagram-5-64.png" alt="">
+                    <img src="{% static 'images/instagram-5-64.png' %}" alt="">
                 </a>
                 <a href="https://www.facebook.com">
-                    <img src="/static/images/facebook-5-64.png" alt="">    
+                    <img src="{% static 'images/facebook-5-64.png' %}" alt="">    
                 <a href="">
-                    <img src="/static/images/youtube-5-64.png" alt="">
+                    <img src="{% static 'images/youtube-5-64.png' %}" alt="">
                 </a>
             </div>
         </div>
         <div class="rightSide">
-            <img src="/static/images/foto.jpg" alt="">
+            <img src="{% static 'images/foto.jpg' %}" alt="">
         </div>
     </section>
 </body>
